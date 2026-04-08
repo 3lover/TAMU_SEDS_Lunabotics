@@ -1,0 +1,23 @@
+[0.016s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader
+[0.042s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.353s] [31mCMake Error at CMakeLists.txt:15 (target_include_directories):
+[0.353s]   Cannot specify include directories for target "test" which is not built by
+[0.354s]   this project.
+[0.354s] 
+[0.354s] [0m
+[0.355s] [31mCMake Error at CMakeLists.txt:18 (target_compile_features):
+[0.355s]   Cannot specify compile features for target "test" which is not built by
+[0.355s]   this project.
+[0.355s] 
+[0.356s] [0m
+[0.356s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.526s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.527s] -- Configured cppcheck include dirs: 
+[0.527s] -- Configured cppcheck exclude dirs and/or files: 
+[0.530s] -- Added test 'lint_cmake' to check CMake code style
+[0.533s] -- Added test 'uncrustify' to check C / C++ code style
+[0.534s] -- Configured uncrustify additional arguments: 
+[0.535s] -- Added test 'xmllint' to check XML markup files
+[0.538s] -- Configuring incomplete, errors occurred!
+[0.538s] See also "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/CMakeOutput.log".
+[0.562s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader

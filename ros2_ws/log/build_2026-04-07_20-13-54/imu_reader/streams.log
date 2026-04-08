@@ -1,0 +1,30 @@
+[0.020s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader
+[0.396s] -- The C compiler identification is GNU 11.4.0
+[0.614s] -- The CXX compiler identification is GNU 11.4.0
+[0.662s] -- Detecting C compiler ABI info
+[0.902s] -- Detecting C compiler ABI info - done
+[0.927s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.931s] -- Detecting C compile features
+[0.934s] -- Detecting C compile features - done
+[0.951s] -- Detecting CXX compiler ABI info
+[1.163s] -- Detecting CXX compiler ABI info - done
+[1.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.192s] -- Detecting CXX compile features
+[1.194s] -- Detecting CXX compile features - done
+[1.212s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.596s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.895s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.121s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.122s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader/include>
+[2.122s] -- Configured cppcheck exclude dirs and/or files: 
+[2.125s] -- Added test 'lint_cmake' to check CMake code style
+[2.130s] -- Added test 'uncrustify' to check C / C++ code style
+[2.130s] -- Configured uncrustify additional arguments: 
+[2.133s] -- Added test 'xmllint' to check XML markup files
+[2.140s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[2.140s]   The target name "test" is reserved when CTest testing is enabled.
+[2.140s] 
+[2.141s] [0m
+[2.141s] -- Configuring incomplete, errors occurred!
+[2.141s] See also "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/CMakeOutput.log".
+[2.177s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader

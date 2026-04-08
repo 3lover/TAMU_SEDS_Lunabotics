@@ -1,6 +1,11 @@
+source;share/imu_reader/hook/cmake_prefix_path.ps1
+source;share/imu_reader/hook/cmake_prefix_path.dsv
+source;share/imu_reader/hook/cmake_prefix_path.sh
 source;share/imu_reader/hook/pythonpath.ps1
 source;share/imu_reader/hook/pythonpath.dsv
 source;share/imu_reader/hook/pythonpath.sh
-source;share/imu_reader/hook/ament_prefix_path.ps1
-source;share/imu_reader/hook/ament_prefix_path.dsv
-source;share/imu_reader/hook/ament_prefix_path.sh
+source;share/imu_reader/local_setup.bash
+source;share/imu_reader/local_setup.dsv
+source;share/imu_reader/local_setup.ps1
+source;share/imu_reader/local_setup.sh
+source;share/imu_reader/local_setup.zsh

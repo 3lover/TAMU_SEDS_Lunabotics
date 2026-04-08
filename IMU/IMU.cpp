@@ -1,7 +1,7 @@
-"""
-ISM330DLC IMU Reader — Jetson (I2C)
-Reads raw accelerometer and gyroscope data and prints to terminal.
-"""
+
+// ISM330DLC IMU Reader — Jetson (I2C)
+// Reads raw accelerometer and gyroscope data and prints to terminal.
+
 
 
 #include <iostream>
@@ -12,6 +12,7 @@ Reads raw accelerometer and gyroscope data and prints to terminal.
 #include <iomanip>
 #include <cstdint>
 #include <stdexcept>
+#include <cstring>
 
 // Configuration Constants
 const char* I2C_DEVICE = "/dev/i2c-7";

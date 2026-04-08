@@ -1,0 +1,15 @@
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/ament_index/resource_index/package_run_dependencies/imu_reader
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/ament_index/resource_index/parent_prefix_path/imu_reader
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/environment/ament_prefix_path.sh
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/environment/ament_prefix_path.dsv
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/environment/path.sh
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/environment/path.dsv
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/local_setup.bash
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/local_setup.sh
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/local_setup.zsh
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/local_setup.dsv
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.dsv
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/ament_index/resource_index/packages/imu_reader
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/cmake/imu_readerConfig.cmake
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/cmake/imu_readerConfig-version.cmake
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.xml

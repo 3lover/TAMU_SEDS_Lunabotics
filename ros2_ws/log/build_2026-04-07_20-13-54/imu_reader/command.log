@@ -1,0 +1,2 @@
+Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader
+Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader

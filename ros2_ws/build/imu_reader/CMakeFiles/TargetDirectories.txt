@@ -1,0 +1,9 @@
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/uninstall.dir
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/imu_reader_uninstall.dir
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/test.dir
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/edit_cache.dir
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/rebuild_cache.dir
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/list_install_components.dir
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/install.dir
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/install/local.dir
+/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader/CMakeFiles/install/strip.dir
