@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000584] (-) JobUnselected: {'identifier': 'imu_reader'}
+[0.001064] (joy_controller_cpp) JobQueued: {'identifier': 'joy_controller_cpp', 'dependencies': OrderedDict()}
+[0.001330] (joy_controller_cpp) JobStarted: {'identifier': 'joy_controller_cpp'}
+[0.024833] (joy_controller_cpp) JobProgress: {'identifier': 'joy_controller_cpp', 'progress': 'cmake'}
+[0.025829] (joy_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/lunabotics/lunabotics/ros2_ws/src/joy_controller_cpp', '-DCMAKE_INSTALL_PREFIX=/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp'], 'cwd': '/home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('SSH_CLIENT', '192.168.1.238 54780 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/lunabotics/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f118cd8f-fae8-4cd6-9a35-81e317f01523.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fe12b2e1f6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.238 54780 192.168.1.177 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader:/opt/ros/humble')]), 'shell': False}
+[0.099765] (-) TimerEvent: {}
+[0.201257] (-) TimerEvent: {}
+[0.302569] (-) TimerEvent: {}
+[0.404621] (-) TimerEvent: {}
+[0.506328] (-) TimerEvent: {}
+[0.608097] (-) TimerEvent: {}
+[0.710579] (-) TimerEvent: {}
+[0.812746] (joy_controller_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.814793] (-) TimerEvent: {}
+[0.916422] (-) TimerEvent: {}
+[1.018410] (-) TimerEvent: {}
+[1.120550] (-) TimerEvent: {}
+[1.223077] (-) TimerEvent: {}
+[1.305350] (joy_controller_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.323248] (-) TimerEvent: {}
+[1.348233] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.423548] (-) TimerEvent: {}
+[1.525029] (-) TimerEvent: {}
+[1.581203] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.606831] (joy_controller_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.610836] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.613897] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.625026] (-) TimerEvent: {}
+[1.630370] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.725343] (-) TimerEvent: {}
+[1.826352] (-) TimerEvent: {}
+[1.846791] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.873299] (joy_controller_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.875105] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.876987] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.892170] (joy_controller_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.926569] (-) TimerEvent: {}
+[2.028122] (-) TimerEvent: {}
+[2.130244] (-) TimerEvent: {}
+[2.231413] (-) TimerEvent: {}
+[2.282329] (joy_controller_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.331537] (-) TimerEvent: {}
+[2.432212] (-) TimerEvent: {}
+[2.533117] (-) TimerEvent: {}
+[2.584412] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.633375] (-) TimerEvent: {}
+[2.734961] (-) TimerEvent: {}
+[2.744212] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.759380] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.788656] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.828020] (joy_controller_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.835054] (-) TimerEvent: {}
+[2.877555] (joy_controller_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.935303] (-) TimerEvent: {}
+[3.006728] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.016201] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.035432] (-) TimerEvent: {}
+[3.136147] (-) TimerEvent: {}
+[3.237386] (-) TimerEvent: {}
+[3.264158] (joy_controller_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.337552] (-) TimerEvent: {}
+[3.355787] (joy_controller_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.437657] (-) TimerEvent: {}
+[3.444871] (joy_controller_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.469899] (joy_controller_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.537835] (-) TimerEvent: {}
+[3.638731] (-) TimerEvent: {}
+[3.664595] (joy_controller_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.666291] (joy_controller_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.739017] (-) TimerEvent: {}
+[3.840459] (-) TimerEvent: {}
+[3.890855] (joy_controller_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.896314] (joy_controller_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.940859] (-) TimerEvent: {}
+[4.043069] (-) TimerEvent: {}
+[4.145425] (-) TimerEvent: {}
+[4.174468] (joy_controller_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.245550] (-) TimerEvent: {}
+[4.295578] (joy_controller_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.345814] (-) TimerEvent: {}
+[4.447067] (-) TimerEvent: {}
+[4.548196] (-) TimerEvent: {}
+[4.650203] (-) TimerEvent: {}
+[4.751648] (-) TimerEvent: {}
+[4.852885] (-) TimerEvent: {}
+[4.953805] (-) TimerEvent: {}
+[5.054464] (-) TimerEvent: {}
+[5.155088] (-) TimerEvent: {}
+[5.255631] (-) TimerEvent: {}
+[5.356445] (-) TimerEvent: {}
+[5.408659] (joy_controller_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.414393] (joy_controller_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.421740] (joy_controller_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.442277] (joy_controller_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:20 (add_executable):\n'}
+[5.443637] (joy_controller_cpp) StderrLine: {'line': b'  Cannot find source file:\n'}
+[5.444015] (joy_controller_cpp) StderrLine: {'line': b'\n'}
+[5.444258] (joy_controller_cpp) StderrLine: {'line': b'    src/joy_controller_node.cpp\n'}
+[5.444496] (joy_controller_cpp) StderrLine: {'line': b'\n'}
+[5.444714] (joy_controller_cpp) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[5.444945] (joy_controller_cpp) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[5.445153] (joy_controller_cpp) StderrLine: {'line': b'\n'}
+[5.445356] (joy_controller_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[5.447335] (joy_controller_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:20 (add_executable):\n'}
+[5.447682] (joy_controller_cpp) StderrLine: {'line': b'  No SOURCES given to target: joy_controller_node\n'}
+[5.447921] (joy_controller_cpp) StderrLine: {'line': b'\n'}
+[5.448127] (joy_controller_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[5.448327] (joy_controller_cpp) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[5.456533] (-) TimerEvent: {}
+[5.495283] (joy_controller_cpp) CommandEnded: {'returncode': 1}
+[5.556869] (-) TimerEvent: {}
+[5.591461] (joy_controller_cpp) JobEnded: {'identifier': 'joy_controller_cpp', 'rc': 1}
+[5.603865] (-) EventReactorShutdown: {}

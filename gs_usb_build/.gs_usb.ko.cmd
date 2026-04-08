@@ -1,0 +1,1 @@
+cmd_/home/lunabotics/lunabotics/gs_usb_build/gs_usb.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/lunabotics/lunabotics/gs_usb_build/gs_usb.ko /home/lunabotics/lunabotics/gs_usb_build/gs_usb.o /home/lunabotics/lunabotics/gs_usb_build/gs_usb.mod.o;  true

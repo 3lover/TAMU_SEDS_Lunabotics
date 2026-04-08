@@ -1,0 +1,24 @@
+[1.269s] Invoking command in '/home/lunabotics/lunabotics/ros2_ws/src/imu_reader': PYTHONPATH=/home/lunabotics/lunabotics/ros2_ws/build/imu_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_reader build --build-base /home/lunabotics/lunabotics/ros2_ws/build/imu_reader/build install --record /home/lunabotics/lunabotics/ros2_ws/build/imu_reader/install.log --single-version-externally-managed install_data
+[1.760s] running egg_info
+[1.761s] writing ../../build/imu_reader/imu_reader.egg-info/PKG-INFO
+[1.762s] writing dependency_links to ../../build/imu_reader/imu_reader.egg-info/dependency_links.txt
+[1.763s] writing entry points to ../../build/imu_reader/imu_reader.egg-info/entry_points.txt
+[1.763s] writing requirements to ../../build/imu_reader/imu_reader.egg-info/requires.txt
+[1.764s] writing top-level names to ../../build/imu_reader/imu_reader.egg-info/top_level.txt
+[1.766s] reading manifest file '../../build/imu_reader/imu_reader.egg-info/SOURCES.txt'
+[1.768s] writing manifest file '../../build/imu_reader/imu_reader.egg-info/SOURCES.txt'
+[1.769s] running build
+[1.769s] running build_py
+[1.769s] copying imu_reader/imu_node.py -> /home/lunabotics/lunabotics/ros2_ws/build/imu_reader/build/lib/imu_reader
+[1.770s] running install
+[1.770s] running install_lib
+[1.772s] copying /home/lunabotics/lunabotics/ros2_ws/build/imu_reader/build/lib/imu_reader/imu_node.py -> /home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu_reader
+[1.773s] byte-compiling /home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu_reader/imu_node.py to imu_node.cpython-310.pyc
+[1.777s] running install_data
+[1.777s] running install_egg_info
+[1.780s] removing '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu_reader-0.0.0-py3.10.egg-info' (and everything under it)
+[1.781s] Copying ../../build/imu_reader/imu_reader.egg-info to /home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu_reader-0.0.0-py3.10.egg-info
+[1.783s] running install_scripts
+[1.825s] Installing imu_node script to /home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/imu_reader
+[1.826s] writing list of installed files to '/home/lunabotics/lunabotics/ros2_ws/build/imu_reader/install.log'
+[1.892s] Invoked command in '/home/lunabotics/lunabotics/ros2_ws/src/imu_reader' returned '0': PYTHONPATH=/home/lunabotics/lunabotics/ros2_ws/build/imu_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_reader build --build-base /home/lunabotics/lunabotics/ros2_ws/build/imu_reader/build install --record /home/lunabotics/lunabotics/ros2_ws/build/imu_reader/install.log --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/lib/joy_controller_cpp/joy_controller_node
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/ament_index/resource_index/package_run_dependencies/joy_controller_cpp
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/ament_index/resource_index/parent_prefix_path/joy_controller_cpp
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/environment/ament_prefix_path.sh
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/environment/ament_prefix_path.dsv
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/environment/path.sh
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/environment/path.dsv
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/local_setup.bash
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/local_setup.sh
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/local_setup.zsh
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/local_setup.dsv
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/package.dsv
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/ament_index/resource_index/packages/joy_controller_cpp
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/cmake/joy_controller_cppConfig.cmake
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/cmake/joy_controller_cppConfig-version.cmake
+/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/package.xml

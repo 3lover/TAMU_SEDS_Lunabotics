@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: imu-reader
+Version: 0.0.0
+Summary: ROS 2 IMU reader package
+Home-page: UNKNOWN
+Maintainer: lunabotics
+Maintainer-email: lunabotics@todo.todo
+License: TODO: License declaration
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

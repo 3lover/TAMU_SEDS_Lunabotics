@@ -1,0 +1,272 @@
+[0.000000] (-) TimerEvent: {}
+[0.000806] (-) JobUnselected: {'identifier': 'imu_reader'}
+[0.001359] (joy_controller_cpp) JobQueued: {'identifier': 'joy_controller_cpp', 'dependencies': OrderedDict()}
+[0.001709] (joy_controller_cpp) JobStarted: {'identifier': 'joy_controller_cpp'}
+[0.016487] (joy_controller_cpp) JobProgress: {'identifier': 'joy_controller_cpp', 'progress': 'cmake'}
+[0.017894] (joy_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/lunabotics/lunabotics/ros2_ws/src/joy_controller_cpp', '-DCMAKE_INSTALL_PREFIX=/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp'], 'cwd': '/home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('SSH_CLIENT', '192.168.1.238 54780 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/lunabotics/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f118cd8f-fae8-4cd6-9a35-81e317f01523.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fe12b2e1f6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.238 54780 192.168.1.177 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader:/opt/ros/humble')]), 'shell': False}
+[0.045734] (joy_controller_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099630] (-) TimerEvent: {}
+[0.201372] (-) TimerEvent: {}
+[0.302039] (-) TimerEvent: {}
+[0.368741] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.402288] (-) TimerEvent: {}
+[0.446155] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.450573] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.461665] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.478885] (joy_controller_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.501377] (joy_controller_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.502302] (-) TimerEvent: {}
+[0.559765] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.562027] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.602403] (-) TimerEvent: {}
+[0.702869] (-) TimerEvent: {}
+[0.733689] (joy_controller_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.802973] (-) TimerEvent: {}
+[0.822632] (joy_controller_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.874847] (joy_controller_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.903084] (-) TimerEvent: {}
+[1.003811] (-) TimerEvent: {}
+[1.017963] (joy_controller_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.018511] (joy_controller_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.018686] (joy_controller_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.019553] (joy_controller_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.021018] (joy_controller_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.021241] (joy_controller_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.021927] (joy_controller_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.023344] (joy_controller_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.058923] (joy_controller_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.070327] (joy_controller_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp\n'}
+[1.090215] (joy_controller_cpp) CommandEnded: {'returncode': 0}
+[1.091579] (joy_controller_cpp) JobProgress: {'identifier': 'joy_controller_cpp', 'progress': 'build'}
+[1.093052] (joy_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp', '--', '-j6', '-l6'], 'cwd': '/home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('SSH_CLIENT', '192.168.1.238 54780 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/lunabotics/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f118cd8f-fae8-4cd6-9a35-81e317f01523.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fe12b2e1f6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.238 54780 192.168.1.177 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader:/opt/ros/humble')]), 'shell': False}
+[1.103925] (-) TimerEvent: {}
+[1.204611] (-) TimerEvent: {}
+[1.222037] (joy_controller_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_controller_node.dir/src/joy_controller_node.cpp.o\x1b[0m\n'}
+[1.305234] (-) TimerEvent: {}
+[1.407411] (-) TimerEvent: {}
+[1.509259] (-) TimerEvent: {}
+[1.610064] (-) TimerEvent: {}
+[1.711459] (-) TimerEvent: {}
+[1.813958] (-) TimerEvent: {}
+[1.916599] (-) TimerEvent: {}
+[2.018614] (-) TimerEvent: {}
+[2.119747] (-) TimerEvent: {}
+[2.221501] (-) TimerEvent: {}
+[2.322738] (-) TimerEvent: {}
+[2.425133] (-) TimerEvent: {}
+[2.527035] (-) TimerEvent: {}
+[2.627740] (-) TimerEvent: {}
+[2.728485] (-) TimerEvent: {}
+[2.829215] (-) TimerEvent: {}
+[2.929941] (-) TimerEvent: {}
+[3.030666] (-) TimerEvent: {}
+[3.131362] (-) TimerEvent: {}
+[3.232065] (-) TimerEvent: {}
+[3.332796] (-) TimerEvent: {}
+[3.433455] (-) TimerEvent: {}
+[3.534378] (-) TimerEvent: {}
+[3.635088] (-) TimerEvent: {}
+[3.735793] (-) TimerEvent: {}
+[3.836539] (-) TimerEvent: {}
+[3.937485] (-) TimerEvent: {}
+[4.038214] (-) TimerEvent: {}
+[4.138902] (-) TimerEvent: {}
+[4.239595] (-) TimerEvent: {}
+[4.340262] (-) TimerEvent: {}
+[4.441119] (-) TimerEvent: {}
+[4.541823] (-) TimerEvent: {}
+[4.642525] (-) TimerEvent: {}
+[4.743244] (-) TimerEvent: {}
+[4.843955] (-) TimerEvent: {}
+[4.944641] (-) TimerEvent: {}
+[5.045255] (-) TimerEvent: {}
+[5.145944] (-) TimerEvent: {}
+[5.246651] (-) TimerEvent: {}
+[5.347307] (-) TimerEvent: {}
+[5.448149] (-) TimerEvent: {}
+[5.548889] (-) TimerEvent: {}
+[5.649583] (-) TimerEvent: {}
+[5.750287] (-) TimerEvent: {}
+[5.851012] (-) TimerEvent: {}
+[5.951735] (-) TimerEvent: {}
+[6.052430] (-) TimerEvent: {}
+[6.168199] (-) TimerEvent: {}
+[6.268906] (-) TimerEvent: {}
+[6.369585] (-) TimerEvent: {}
+[6.470292] (-) TimerEvent: {}
+[6.571003] (-) TimerEvent: {}
+[6.671660] (-) TimerEvent: {}
+[6.772326] (-) TimerEvent: {}
+[6.873018] (-) TimerEvent: {}
+[6.973701] (-) TimerEvent: {}
+[7.074390] (-) TimerEvent: {}
+[7.175084] (-) TimerEvent: {}
+[7.275784] (-) TimerEvent: {}
+[7.376500] (-) TimerEvent: {}
+[7.477176] (-) TimerEvent: {}
+[7.577871] (-) TimerEvent: {}
+[7.678548] (-) TimerEvent: {}
+[7.779218] (-) TimerEvent: {}
+[7.879908] (-) TimerEvent: {}
+[7.980614] (-) TimerEvent: {}
+[8.081321] (-) TimerEvent: {}
+[8.182014] (-) TimerEvent: {}
+[8.282718] (-) TimerEvent: {}
+[8.383413] (-) TimerEvent: {}
+[8.484132] (-) TimerEvent: {}
+[8.584840] (-) TimerEvent: {}
+[8.685525] (-) TimerEvent: {}
+[8.786203] (-) TimerEvent: {}
+[8.886898] (-) TimerEvent: {}
+[8.987601] (-) TimerEvent: {}
+[9.088311] (-) TimerEvent: {}
+[9.189035] (-) TimerEvent: {}
+[9.289747] (-) TimerEvent: {}
+[9.390438] (-) TimerEvent: {}
+[9.491113] (-) TimerEvent: {}
+[9.591818] (-) TimerEvent: {}
+[9.692546] (-) TimerEvent: {}
+[9.793246] (-) TimerEvent: {}
+[9.893947] (-) TimerEvent: {}
+[9.994658] (-) TimerEvent: {}
+[10.095373] (-) TimerEvent: {}
+[10.196086] (-) TimerEvent: {}
+[10.296835] (-) TimerEvent: {}
+[10.397474] (-) TimerEvent: {}
+[10.497998] (-) TimerEvent: {}
+[10.598528] (-) TimerEvent: {}
+[10.699031] (-) TimerEvent: {}
+[10.799518] (-) TimerEvent: {}
+[10.900015] (-) TimerEvent: {}
+[11.000574] (-) TimerEvent: {}
+[11.101234] (-) TimerEvent: {}
+[11.201811] (-) TimerEvent: {}
+[11.302338] (-) TimerEvent: {}
+[11.402836] (-) TimerEvent: {}
+[11.503339] (-) TimerEvent: {}
+[11.603855] (-) TimerEvent: {}
+[11.704373] (-) TimerEvent: {}
+[11.805064] (-) TimerEvent: {}
+[11.905715] (-) TimerEvent: {}
+[12.006307] (-) TimerEvent: {}
+[12.106996] (-) TimerEvent: {}
+[12.207690] (-) TimerEvent: {}
+[12.308409] (-) TimerEvent: {}
+[12.409073] (-) TimerEvent: {}
+[12.509727] (-) TimerEvent: {}
+[12.610405] (-) TimerEvent: {}
+[12.711063] (-) TimerEvent: {}
+[12.811710] (-) TimerEvent: {}
+[12.912380] (-) TimerEvent: {}
+[13.013085] (-) TimerEvent: {}
+[13.113799] (-) TimerEvent: {}
+[13.214468] (-) TimerEvent: {}
+[13.315141] (-) TimerEvent: {}
+[13.415795] (-) TimerEvent: {}
+[13.516501] (-) TimerEvent: {}
+[13.617226] (-) TimerEvent: {}
+[13.717873] (-) TimerEvent: {}
+[13.818510] (-) TimerEvent: {}
+[13.919153] (-) TimerEvent: {}
+[14.019799] (-) TimerEvent: {}
+[14.120457] (-) TimerEvent: {}
+[14.221122] (-) TimerEvent: {}
+[14.321777] (-) TimerEvent: {}
+[14.422408] (-) TimerEvent: {}
+[14.523027] (-) TimerEvent: {}
+[14.623657] (-) TimerEvent: {}
+[14.724289] (-) TimerEvent: {}
+[14.824939] (-) TimerEvent: {}
+[14.925560] (-) TimerEvent: {}
+[15.026204] (-) TimerEvent: {}
+[15.126852] (-) TimerEvent: {}
+[15.227504] (-) TimerEvent: {}
+[15.328175] (-) TimerEvent: {}
+[15.428847] (-) TimerEvent: {}
+[15.529472] (-) TimerEvent: {}
+[15.630108] (-) TimerEvent: {}
+[15.730729] (-) TimerEvent: {}
+[15.831352] (-) TimerEvent: {}
+[15.931987] (-) TimerEvent: {}
+[16.032585] (-) TimerEvent: {}
+[16.133219] (-) TimerEvent: {}
+[16.233871] (-) TimerEvent: {}
+[16.334511] (-) TimerEvent: {}
+[16.435126] (-) TimerEvent: {}
+[16.535734] (-) TimerEvent: {}
+[16.636363] (-) TimerEvent: {}
+[16.736988] (-) TimerEvent: {}
+[16.837610] (-) TimerEvent: {}
+[16.938235] (-) TimerEvent: {}
+[17.038864] (-) TimerEvent: {}
+[17.139509] (-) TimerEvent: {}
+[17.240143] (-) TimerEvent: {}
+[17.340777] (-) TimerEvent: {}
+[17.441395] (-) TimerEvent: {}
+[17.542004] (-) TimerEvent: {}
+[17.642642] (-) TimerEvent: {}
+[17.743252] (-) TimerEvent: {}
+[17.843876] (-) TimerEvent: {}
+[17.944526] (-) TimerEvent: {}
+[18.045143] (-) TimerEvent: {}
+[18.145783] (-) TimerEvent: {}
+[18.246428] (-) TimerEvent: {}
+[18.347045] (-) TimerEvent: {}
+[18.447640] (-) TimerEvent: {}
+[18.548244] (-) TimerEvent: {}
+[18.648882] (-) TimerEvent: {}
+[18.749514] (-) TimerEvent: {}
+[18.850133] (-) TimerEvent: {}
+[18.950748] (-) TimerEvent: {}
+[19.051916] (-) TimerEvent: {}
+[19.153852] (-) TimerEvent: {}
+[19.254782] (-) TimerEvent: {}
+[19.355460] (-) TimerEvent: {}
+[19.456106] (-) TimerEvent: {}
+[19.556764] (-) TimerEvent: {}
+[19.657414] (-) TimerEvent: {}
+[19.758052] (-) TimerEvent: {}
+[19.858677] (-) TimerEvent: {}
+[19.959324] (-) TimerEvent: {}
+[20.060009] (-) TimerEvent: {}
+[20.160712] (-) TimerEvent: {}
+[20.261441] (-) TimerEvent: {}
+[20.362154] (-) TimerEvent: {}
+[20.463126] (-) TimerEvent: {}
+[20.481244] (joy_controller_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_controller_node\x1b[0m\n'}
+[20.563311] (-) TimerEvent: {}
+[20.664526] (-) TimerEvent: {}
+[20.765598] (-) TimerEvent: {}
+[20.866313] (-) TimerEvent: {}
+[20.967046] (-) TimerEvent: {}
+[21.067711] (-) TimerEvent: {}
+[21.168355] (-) TimerEvent: {}
+[21.269024] (-) TimerEvent: {}
+[21.369720] (-) TimerEvent: {}
+[21.444413] (joy_controller_cpp) StdoutLine: {'line': b'[100%] Built target joy_controller_node\n'}
+[21.469974] (-) TimerEvent: {}
+[21.482774] (joy_controller_cpp) CommandEnded: {'returncode': 0}
+[21.485403] (joy_controller_cpp) JobProgress: {'identifier': 'joy_controller_cpp', 'progress': 'install'}
+[21.514490] (joy_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp'], 'cwd': '/home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('SSH_CLIENT', '192.168.1.238 54780 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/lunabotics/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f118cd8f-fae8-4cd6-9a35-81e317f01523.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fe12b2e1f6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lunabotics/lunabotics/ros2_ws/build/joy_controller_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.238 54780 192.168.1.177 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/lunabotics/ros2_ws/install/imu_reader:/opt/ros/humble')]), 'shell': False}
+[21.543502] (joy_controller_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.544196] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/lib/joy_controller_cpp/joy_controller_node\n'}
+[21.555475] (joy_controller_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/lib/joy_controller_cpp/joy_controller_node" to ""\n'}
+[21.556055] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/ament_index/resource_index/package_run_dependencies/joy_controller_cpp\n'}
+[21.556476] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/ament_index/resource_index/parent_prefix_path/joy_controller_cpp\n'}
+[21.556929] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/environment/ament_prefix_path.sh\n'}
+[21.557222] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/environment/ament_prefix_path.dsv\n'}
+[21.557535] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/environment/path.sh\n'}
+[21.557851] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/environment/path.dsv\n'}
+[21.558163] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/local_setup.bash\n'}
+[21.558446] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/local_setup.sh\n'}
+[21.558783] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/local_setup.zsh\n'}
+[21.559080] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/local_setup.dsv\n'}
+[21.559358] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/package.dsv\n'}
+[21.559793] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/ament_index/resource_index/packages/joy_controller_cpp\n'}
+[21.560176] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/cmake/joy_controller_cppConfig.cmake\n'}
+[21.560417] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/cmake/joy_controller_cppConfig-version.cmake\n'}
+[21.560985] (joy_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/lunabotics/lunabotics/ros2_ws/install/joy_controller_cpp/share/joy_controller_cpp/package.xml\n'}
+[21.566939] (joy_controller_cpp) CommandEnded: {'returncode': 0}
+[21.570062] (-) TimerEvent: {}
+[21.644788] (joy_controller_cpp) JobEnded: {'identifier': 'joy_controller_cpp', 'rc': 0}
+[21.647689] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+cmd_/home/lunabotics/lunabotics/gs_usb_build/Module.symvers := sed 's/\.ko$$/\.o/' /home/lunabotics/lunabotics/gs_usb_build/modules.order | scripts/mod/modpost -m   -o /home/lunabotics/lunabotics/gs_usb_build/Module.symvers -e -i Module.symvers   -T -
